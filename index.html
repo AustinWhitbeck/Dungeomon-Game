@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dungeomon</title>
+</head>
+<body>
+    <h1 class="title">DUNGEOMON</h1>
+    <main class="char-select-container">
+        <div class="role-selection-div">
+            <h2 class="role-select-title">What might you be, traveler?</h2>
+            <div class="role-buttons-container">
+                <button class="role-button alch-btn">Alchemist</button>
+                <button class="role-button barb-btn">Barbarian</button>
+                <button class="role-button spellb-btn">Spellbow</button>
+                <button class="role-button rogue-btn">Rogue</button>
+            </div>
+            <div class="role-preview-image">
+                <img src="./images/alchemist-front-img.jpg" alt="alchemist image" id="alchemist-img" class="role-img hidden">
+                <img src="./images/barbarian-front-img.jpg" alt="barbarian image" id="barbarian-img" class="role-img hidden">
+                <img src="./images/spellbow-front-img.png" alt="spellbow image" id="spellbow-img" class=" role-img hidden">
+                <img src="./images/rogue-front-img.jpg" alt="rogue image" id="rogue-img" class="role-img hidden">
+            </div>
+            <div class="role-abilities-container">
+                <section class="preview-health-section prev-sect">
+                    <div class="health-preview">Health</div>
+                    <div class="health-num-preview">Number</div>
+                </section>
+                <section class="preview-phys-dmg-section prev-sect">
+                    <div class="phys-dmg-preview">Physical Damage</div>
+                    <div class="phys-dmg-num-preview">Number</div>
+                </section>
+                <section class="preview-phys-res-section prev-sect">
+                    <div class="phys-res-preview">Physical Resistance</div>
+                    <div class="phys-res-num-preview">Number</div>
+                </section>
+                <section class="preview-magic-dmg-section prev-sect">
+                    <div class="magic-dmg-preview">Magic Damage</div>
+                    <div class="magic-dmg-num-preview">Number</div>
+                </section>
+                <section class="preview-magic-res-section prev-sect">
+                    <div class="magic-res-preview">Magic Resistance</div>
+                    <div class="magic-res-num-preview">Number</div>
+                </section>
+           
+        </div>
+        <div class="role-specific-container">
+            <section class="role-specific-ability">
+                <h3 class="chosen-role-title"><span class="chosen-role-span">Role</span> specific abilities</h3>
+            </section>
+        </div>
+        <div class="confirm-bttn-div prev-sect">
+            <button class="confirm-role-bttn">Confirm Role Selection</button>
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- classes Scripts -->
+    <script src="./role-templates.js" type="text/javascript"></script>
+    <script src="./roles.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+/* Global use classes */
+
+.hidden {
+    display: none;
+}
+
+/* Title */
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(88, 63, 40);
+    padding: 8px;
+}
+
+
+/* role select section */
+
+.role-selection-div {
+    display: flex;
+    flex-direction: column;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(88, 63, 40);
+    padding: 8px;
+}
+
+.role-select-title {
+    text-align: center;
+}
+
+.role-buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.role-button {
+    margin: 4px 0;
+    border-style: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.role-preview-image {
+    display: flex;
+    justify-content: center;
+}
+
+.role-img {
+    height: 200px;
+}
+/*  role stats preview */
+
+.prev-sect {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm-bttn-div {
+    display: flex;
+    justify-content: center;
+}
+.chosen-role-title {
+    text-align: center;
+}
